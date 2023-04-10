@@ -12,7 +12,7 @@ function NavBar() {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
               <Link href="/">
-                <img src="./SAIBASUMMIT.svg" alt="" className='w-[200px]'/>
+                <img src="./saibaBlackLogo.png" alt="" className='w-[200px]'/>
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
