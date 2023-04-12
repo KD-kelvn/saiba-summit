@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Head from 'next/head';
 import Link  from 'next/link';
 import Image from 'next/image';
 import Events  from "../components/Events/Events"
@@ -53,6 +54,7 @@ const index = () => {
     <Partners/>
     <Contact/>
     <Footer/>
+    <script src="https://kit.fontawesome.com/524640606a.js" crossorigin="anonymous" async></script>
     </>
   )
 }

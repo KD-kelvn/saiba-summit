@@ -43,7 +43,7 @@ const Form = () => {
 
   }
   return (
-    <form className="rounded-lg w-[88%] md:w-[70%] mt-[30px] self-center shadow-xl flex flex-col px-8 py-8 bg-[#F9FAFD] dark:bg-[#F9FAFD]" onSubmit={handleSubmit}>
+    <form className="rounded-lg w-[88%] md:w-[50%] mt-[30px] self-center  flex flex-col px-8 py-8 bg-[#F9FAFD] dark:bg-[#F9FAFD]" onSubmit={handleSubmit}>
       <h1 className="text-xl font-bold pl-10">Send a message</h1>
       
       <label htmlFor="fullname" className="text-white-500 font-light mt-8 text-black">Full name<span className="text-red-500 dark:text-red-500">*</span></label>

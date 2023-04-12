@@ -11,7 +11,7 @@ const Partners = () => {
 
             <div className="w-[80%] justify-center partners-wrapper flex flex-wrap">
                 <div className="partner-wrapper relative self-center min-w-[200px] max-w-[200px]">
-                    <img src="./SAIBASUMMIT.svg" alt="" className='w-full min-h-[200px] max-h-[200px]'/>
+                    <img src="./blue-black-iic.png" alt="" className='w-full min-h-[200px] max-h-[200px]' style={{objectFit: "cover"}}/>
                 </div>
             </div>
           </div>
