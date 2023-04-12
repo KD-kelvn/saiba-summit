@@ -3,7 +3,6 @@ const aboutUs = () => {
   return (
     <>
     <section className="about-section" id="about">
-        <div className="grid grid-rows-2 gap-4 sm:grid-rows-1"></div>
           <div className="relative">
             <h1 className="text-lg">About Saiba summit</h1>
             <span className="empty-bar"></span>

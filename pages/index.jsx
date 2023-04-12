@@ -15,7 +15,7 @@ const index = () => {
     <>
         <Navbar/>
         <section className='flex justify-center px-[5rem] hero-section section '>
-          <motion.div className='flex flex-col w-[90%] justify-center md:flex-row md:w-[88%]'>
+          <motion.div  className='flex flex-col w-[90%] justify-center md:flex-row md:w-[88%] '>
            <div className='w-[100%] mr-2 mt-[0] sm:mt-[12%] md:w-1/2'>
             <small className='text-base font-semibold'>Saiba Summit 2023:</small>
             <h1 className='text-4xl md:text-6xl mb-2 font-bold'>

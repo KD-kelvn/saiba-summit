@@ -35,9 +35,9 @@ const Footer = () => {
 
                 <div className="flex self-center space-x-2 social-nets">
                   <a href="#"><ImFacebook2/></a>
-                  <a href=""><ImInstagram/></a>
-                  <a href=""><FaTwitterSquare/></a>
-                  <a href=""><FaTiktok/></a>
+                  <a href="https://www.instagram.com/saibasummit/"><ImInstagram/></a>
+                  <a href="https://www.twitter.com/saibasummit/"><FaTwitterSquare/></a>
+                  <a href="#"><FaTiktok/></a>
                 </div>
             </div>
             <div className="self-center -mb-20 bottom">
