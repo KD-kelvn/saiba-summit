@@ -8,8 +8,8 @@
 const Events = () => {
   return (
     <>
-        <section id="events-section" className="hidden md:my-[10%] sm:flex sm:justify-center">
-            <div className="w-[90%] md:w-[80%] events-container">
+        <section id="events-section" className="hidden md:my-[2%] sm:flex sm:justify-center">
+            <div className="w-[90%] md:w-[80%] events-container pt-[24px]">
                 <div className="mt-[20px] headings">
                     <h1 className="text-4xl font-bold">2023 EVENT</h1>
                    

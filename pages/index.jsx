@@ -22,7 +22,7 @@ const index = () => {
             </h1>
             <h3 className='text-lg'>Join the thrilling journey of tech transformation and experience the power of Networking, Learning and Sharing.</h3>
 
-            <button className='w-40 px-2 py-2 bg-slate-400 rounded-full transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-500 duration-300 mt-6' >
+            <button className='w-40 px-2 py-2 bg-[#025DBE] rounded-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 mt-6' >
               <Link className='w-100 bg-transparent' href="#" >
                   Join us
               </Link>
