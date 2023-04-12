@@ -5,14 +5,14 @@ import { useState } from 'react';
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div>
-      <nav className="w-full bg-[#F9FAFD] fixed top-0 left-0 right-0 z-10">
+    <div className='mb-[2rem]'>
+      <nav className="w-full bg-[#F9FAFD] fixed top-0 left-0 right-0 z-[100000]">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center justify-between">
               {/* LOGO */}
               <Link href="/">
-                <img src="./saibaBlackLogo.png" alt="" className='w-[200px]'/>
+                <img src="./saibaBlackLogo.png" alt="" className='w-[200px] max-h-[80px]' style={{objectFit: "cover"}}/>
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">

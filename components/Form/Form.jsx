@@ -46,16 +46,16 @@ const Form = () => {
     <form className="rounded-lg w-[88%] md:w-[70%] mt-[30px] self-center shadow-xl flex flex-col px-8 py-8 bg-[#F9FAFD] dark:bg-[#F9FAFD]" onSubmit={handleSubmit}>
       <h1 className="text-xl font-bold pl-10">Send a message</h1>
       
-      <label for="fullname" className="text-white-500 font-light mt-8 text-black">Full name<span className="text-red-500 dark:text-red-500">*</span></label>
+      <label htmlFor="fullname" className="text-white-500 font-light mt-8 text-black">Full name<span className="text-red-500 dark:text-red-500">*</span></label>
       <input type="text" value={name} onChange={(e)=>setName(e.target.value)} className="bg-transparent border-sky-950 border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-blue-500 font-light text-black"/>
 
-      <label for="email" className="text-gray-500 font-light mt-4 dark:text-black">E-mail<span className="text-red-500">*</span></label>
+      <label htmlFor="email" className="text-gray-500 font-light mt-4 dark:text-black">E-mail<span className="text-red-500">*</span></label>
       <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)} className="bg-transparent border-sky-950 border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-blue-500 font-light text-black" />
 
-      <label for="subject" className="text-black font-light mt-4 dark:text-black">Subject<span className="text-red-500">*</span></label>
+      <label htmlFor="subject" className="text-black font-light mt-4 dark:text-black">Subject<span className="text-red-500">*</span></label>
       <input type="text" value={subject} onChange={(e)=>setSubject(e.target.value)} className="bg-transparent border-sky-950 border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-blue-500 font-light text-black" />
 
-      <label for="message" className="text-black font-light mt-4 dark:text-black">Message<span className="text-red-500">*</span></label>
+      <label htmlFor="message" className="text-black font-light mt-4 dark:text-black">Message<span className="text-red-500">*</span></label>
       <textarea name="message" value={message} onChange={(e)=>setMessage(e.target.value)} className="bg-transparent border-sky-950 border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-blue-500 font-light text-black"></textarea>
       <div className="flex flex-col items-center justify-start">
       
