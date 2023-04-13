@@ -22,8 +22,7 @@ section {
     margin-top: -20px;
     margin-left: -10px;
     transform: translate(-10px, -5px);
-    position: relative;
-    
+    position: relative; 
 }
 
 .about-section, #about {
